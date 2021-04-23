@@ -1,3 +1,4 @@
+# import lib
 from numpy import arange
 from pandas import read_csv
 from scipy.optimize import curve_fit
@@ -7,6 +8,7 @@ from matplotlib import pyplot
 def objective(x, a, b):
 	return a * x + b
 
+# set data
 data = [
         [10, 15.4], 
 		[19, 19.4], 
@@ -30,7 +32,7 @@ for i in range(0, len(data)):
 print(x)
 print(y)
 
-# # load the dataset
+# # load the dataset from online
 # url = 'https://raw.githubusercontent.com/jbrownlee/Datasets/master/longley.csv'
 # dataframe = read_csv(url, header=None)
 # data = dataframe.values
