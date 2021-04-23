@@ -1,4 +1,4 @@
-# trendline_equation
+# Trendline Equation
 This is trendline equation script!
 
 ## Getting started
