@@ -30,5 +30,6 @@ $ python -m pip install matplotlib
 ```bash
 python trendline_equation.py
 ``` 
-__ tao @ 2021 04 24 __
+(Python 3.9.0)
 
+__ tao @ 2021 04 24 __
